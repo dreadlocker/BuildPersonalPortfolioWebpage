@@ -1,0 +1,47 @@
+#navbar {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.nav-link {
+  border-right: 3px solid #E0EBE8;
+}
+
+
+section {
+  overflow: auto;
+}
+
+xmp {
+  background-color: lightgrey;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #E0EBE8;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  #navbar {
+    justify-content: space-evenly;
+  }
+
+  .nav-link {
+    border-right: 3px solid #E0EBE8;
+    border-left: 3px solid #E0EBE8;
+    padding: 0 5px;
+  }
+}
